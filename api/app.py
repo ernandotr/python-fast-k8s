@@ -14,7 +14,7 @@ def db_check():
             dbname="mydb",
             user="myuser",
             password="mypassword",
-            host="host.minikube.internal",
+            host="192.168.1.215",
             port="5432"
         )
         conn.close()
